@@ -1,0 +1,203 @@
+/* Header */
+.cabecera{
+    align-items: center;
+    background: #f9f9f9;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+}
+
+.logo{
+    border-radius: 30%;
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__item{
+    list-style: none
+}
+
+.menu__item:last-child .menu__link{
+    margin-right: 0;
+}
+.menu__link{
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.active{
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu_link:hover{
+    text-decoration: underline;
+}
+
+/* Banner */
+
+.banner{
+    width: 100%;
+
+}
+
+.banner__img{
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+
+.banner__titulo{
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    font-size: 5.0625rem;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+/* Sobre */
+
+.sobre{
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.sobre__titulo{
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+}
+
+.sobre__descripcion {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+/* Recetas */
+
+.recetas {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+
+.receta {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem);
+}
+
+.receta__imagem {
+    height: 200px;
+}
+
+.receta__titulo {
+    font-size: 1.4375rem;
+}
+
+.receta__descripcion {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.receta__contenido {
+    padding: 1rem;
+}
+
+.receta__boton {
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+}
+
+/* Quienes Somos */
+
+.quienes-somos {
+    text-align: center;
+    padding: 5rem;    
+}
+
+.quienes-somos__titulo {
+    margin-bottom: 1rem;
+    color: #8d0606;
+    font-size: 1.1875rem;
+    font-family: Pacifico, cursive;
+}
+
+.quienes-somos__descripcion {
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #595959;
+}
+
+/* Personas */
+
+.persona {
+    display: flex;
+    flex-direction: column;
+}
+
+.personas {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+
+.persona__nombre {
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.persona__imagen {
+    background: red;
+    height: 300px;
+    width: 300px;
+}
+
+.persona__imagen--roberta {
+    background: url("../img/personas/roberta.jpg");
+}
+
+.persona__imagen--marcela {
+    background: url("../img/personas/marcela.jpg");
+}
+
+
+.persona__imagen--andrea {
+    background: url("../img/personas/andrea.jpg");
+}
+
+.persona__imagen {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.persona__funcion {
+    color: #595959;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+}
+
+
